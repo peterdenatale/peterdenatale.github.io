@@ -1,0 +1,107 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 60px; /* Margin bottom by footer height */
+  background-color: #FEFFF1;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px; /* Set the fixed height of the footer here */
+  line-height: 50px; /* Vertically center the text there */
+  background-color: #B46D6B;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Verona Light', serif !important;
+  color: #212121;
+}
+
+p, a, li, ul, span {
+  font-family: 'Europa', 'Avenir', Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: underline;
+  color: #B46D6B;
+}
+
+.stroke {
+  color: transparent;
+  -moz-text-stroke-width: 2px;
+  -webkit-text-stroke-width: 2px;
+  -moz-text-stroke-color: #212121;
+  -webkit-text-stroke-color: #212121;
+}
+
+.shadow {
+  text-shadow: 2.2px 2.2px #B46D6B5b;
+  box-shadow: none !important;
+}
+
+.subscript-title {
+  font-size: 15px;
+  letter-spacing: 2px;
+  color: #212121;
+  opacity: 0.3;
+}
+
+.title {
+  font-family: 'Europa Bold', 'Avenir', Helvetica, sans-serif;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.sec-head {
+  margin-top:15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: 'Europa Bold', 'Avenir', Helvetica, sans-serif;
+  color: #B46D6B;
+}
+
+.sec-head-line {
+  margin-top: -10px;
+  border-color:#B46D6B5b !important;
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+
+/* Fonts */
+@font-face {
+  font-family: 'Europa Bold';
+  src: url("Europa-Bold.otf") format("opentype");
+  }
+
+@font-face {
+  font-family: 'Europa Light';
+  src: url("Europa-Light.otf") format("opentype");
+  }
+
+@font-face {
+  font-family: 'Europa';
+  src: url("Europa-Regular.otf") format("opentype");
+  }
+
+@font-face {
+  font-family: 'Sentinel LI';
+  src: url("sentinel-light-italic.ttf") format("truetype");
+  }
+
+@font-face {
+  font-family: 'Verona Light';
+  src: url("verona-light.otf") format("opentype");
+  }
