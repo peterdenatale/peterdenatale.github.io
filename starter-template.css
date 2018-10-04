@@ -336,3 +336,9 @@ main a {
   color: #fffaf0;
   box-shadow: 3px 3px #626E825b;
 }
+
+.card-deck .card {
+  display: block;
+  flex-basis: 46%; /* change this value for each breakpoint*/
+  margin-bottom: 30px;
+}
