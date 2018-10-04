@@ -7,6 +7,7 @@ html {
 body {
   margin-bottom: 60px; /* Margin bottom by footer height */
   background-color: #FEFFF1;
+  min-height: 100%;
 }
 .footer {
   position: absolute;
@@ -14,7 +15,7 @@ body {
   width: 100%;
   height: 50px; /* Set the fixed height of the footer here */
   line-height: 50px; /* Vertically center the text there */
-  background-color: #B46D6B;
+  background-color: #415c7a;
 }
 
 h1, h2, h3, h4, h5 {
@@ -28,7 +29,7 @@ p, a, li, ul, span {
 
 a {
   text-decoration: underline;
-  color: #B46D6B;
+  color: #415c7a;
 }
 
 .stroke {
@@ -40,7 +41,7 @@ a {
 }
 
 .shadow {
-  text-shadow: 2.2px 2.2px #B46D6B5b;
+  text-shadow: 2.2px 2.2px #415c7a5b;
   box-shadow: none !important;
 }
 
@@ -62,12 +63,12 @@ a {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-family: 'Europa Bold', 'Avenir', Helvetica, sans-serif;
-  color: #B46D6B;
+  color: #415c7a;
 }
 
 .sec-head-line {
   margin-top: -10px;
-  border-color:#B46D6B5b !important;
+  border-color:#415c7a5b !important;
 }
 
 /* Custom page CSS
@@ -105,3 +106,26 @@ a {
   font-family: 'Verona Light';
   src: url("Verona-Light.otf") format("opentype");
   }
+
+.top-sec {
+  height: 100vh;
+  width: 100%;
+}
+
+.top-head {
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-bottom: 30px !important;
+}
+
+.top-image {
+  width: 100%;
+  height: 65%;
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.2), 
+    rgba(0, 0, 0, 0.2)
+  ), url("prisms.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

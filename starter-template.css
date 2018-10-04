@@ -1,0 +1,274 @@
+body {
+  margin: 0 !important;
+  padding-top: 0rem;
+  background-color: #fffaf0;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Souvenir Light', serif !important;
+  color: #626E82;
+}
+
+p, a, li, ul, span {
+  font-family: 'Europa', 'Avenir', Helvetica, sans-serif;
+}
+
+main a {
+  text-decoration: underline;
+  color: #626E82;
+}
+
+.stroke {
+  color: transparent;
+  -moz-text-stroke-width: 1.2px;
+  -webkit-text-stroke-width: 1.2px;
+  -moz-text-stroke-color: #212121;
+  -webkit-text-stroke-color: #212121;
+}
+
+.stroke-nav {
+  color: transparent;
+  -moz-text-stroke-width: 2px;
+  -webkit-text-stroke-width: 2px;
+  -moz-text-stroke-color: #fffaf0;
+  -webkit-text-stroke-color: #fffaf0;
+}
+
+.shadow {
+  text-shadow: 1.5px 1.5px #be5b5b5b;
+  box-shadow: none !important;
+}
+
+.subscript-title {
+  font-size: 15px;
+  letter-spacing: 2px;
+  color: #212121;
+  opacity: 0.3;
+}
+
+.title {
+  font-family: 'Souvenir Medium', serif !important;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.sec-head {
+  margin-top:15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: 'Europa Bold', 'Avenir', Helvetica, sans-serif;
+  color: #626E82;
+}
+
+.sec-head-line {
+  margin-top: -10px;
+  border-color:#626E825b !important;
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+
+/* Fonts */
+@font-face {
+  font-family: 'Europa Bold';
+  src: url("Europa-Bold.otf") format("opentype");
+  }
+
+@font-face {
+  font-family: 'Europa Light';
+  src: url("Europa-Light.otf") format("opentype");
+  }
+
+@font-face {
+  font-family: 'Europa';
+  src: url("Europa-Regular.otf") format("opentype");
+  }
+
+@font-face {
+  font-family: 'Sentinel LI';
+  src: url("sentinel-light-italic.ttf") format("truetype");
+  }
+
+@font-face {
+  font-family: 'Verona Light';
+  src: url("Verona-Light.otf") format("opentype");
+  }
+
+@font-face {
+  font-family: 'Souvenir Medium';
+  src: url("SouvenirStd-Medium.otf") format("opentype");
+  }
+
+@font-face {
+  font-family: 'Souvenir Light';
+  src: url("SouvenirStd-Light.otf") format("opentype");
+  }
+
+@font-face {
+  font-family: 'Trump Gothic Pro';
+  src: url("TrumpGothicPro.ttf") format("truetype");
+  }
+
+@font-face {
+  font-family: 'Integral CF';
+  src: url("IntegralCF-Regular.otf") format("opentype");
+  }
+
+@font-face {
+  font-family: 'Close';
+  src: url("System San Francisco Display Ultralight.ttf") format("truetype");
+  }
+
+.top-sec {
+  height: 100vh;
+  width: 100%;
+  display: table;
+}
+
+.top-head {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 2em;
+  text-align: center;
+}
+
+.top-image {
+  width: 100%;
+  height: 65%;
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.2), 
+    rgba(0, 0, 0, 0.2)
+  ), url("prisms.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.scroll-indicator {
+  font-family: 'Europa', 'Avenir', Helvetica, sans-serif;
+  position: absolute;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 10px;
+  display: block;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  font-size: 8px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #929292;
+}
+.scroll-indicator__line {
+  position: absolute;
+  left: 0 !important;
+  top: 0;
+  right: 0 !important;
+  display: block;
+  width: 1px;
+  height: 25px;
+  background-color: #929292;
+  margin: auto;
+  content: '';
+}
+
+.sec-2 {
+  position: relative;
+  left: 0;
+  right: 0;
+  padding: 0;
+  margin: 0;
+  display: block;
+  background: #ffffff;
+  width: 100%;
+}
+
+/* Menu */
+.overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #626E82;
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  font-family: 'Integral CF', Helvetica, sans-serif !important;
+  padding: 4px;
+  letter-spacing: 3px;
+  text-decoration: none;
+  font-size: 45px;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #fffaf0;
+}
+
+.close {
+  position: absolute;
+  top: 20px;
+  right: 25px;
+  width: 25px;
+  height: 25px;
+  overflow: hidden;
+}
+.close::before, .close::after {
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  top: 50%;
+  left: 0;
+  margin-top: -1px;
+  background: #fffaf0;
+}
+.close::before {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.close::after {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+.close.hairline::before, .close.hairline::after {
+  height: 1px;
+}
+
+@media screen and (max-height: 450px) {
+.overlay {overflow-y: auto;}
+.overlay a {font-size: 20px}
+.overlay .closebtn {
+  font-family: 'Europa Light', 'Avenir', Helvetica, sans-serif;
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+}
+}
+
