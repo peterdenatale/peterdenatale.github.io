@@ -19,53 +19,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js" ></script>
     <link rel="stylesheet" href="https://cdn.rawgit.com/tonystar/bootstrap-float-label/v4.0.2/bootstrap-float-label.min.css"/>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" ></script>
-
-    <script>
-        $(document).ready(function(){
-          // Add smooth scrolling to all links
-          $("a").on('click', function(event) {
-        
-            // Make sure this.hash has a value before overriding default behavior
-            if (this.hash !== "") {
-              // Prevent default anchor click behavior
-              event.preventDefault();
-        
-              // Store hash
-              var hash = this.hash;
-        
-              // Using jQuery's animate() method to add smooth page scroll
-              // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-              $('html, body').animate({
-                scrollTop: $(hash).offset().top
-              }, 800, function(){
-        
-                // Add hash (#) to URL when done scrolling (default click behavior)
-                window.location.hash = hash;
-              });
-            } // End if
-          });
-        });
-        </script>
-
-    <script>
-    $(window).scroll(function(){
-    $(".scroll-indicator").css("opacity", 1 - $(window).scrollTop() / 550);
-    });
-    </script>
-    <script>
-        $(window).scroll(function(){
-        $(".sec-2").css("opacity", 0 + $(window).scrollTop() / 550);
-        });
-        </script>
-    <script>
-        function openNav() {
-          document.getElementById("myNav").style.height = "100%";
-        }
-        
-        function closeNav() {
-          document.getElementById("myNav").style.height = "0%";
-        }
-    </script>
   </head>
 
 
@@ -74,10 +27,10 @@
       <div id="myNav" class="overlay">
           <a href="javascript:void(0)" class="close hairline" onclick="closeNav()"></a>
           <div class="overlay-content">
-            <a class="stroke-nav" href="#about">About</a>
-            <a class="stroke-nav" href="https://peterdenatale.github.io/#projects">Projects</a>
-            <a class="stroke-nav" href="#services">Services</a>
-            <a class="stroke-nav" href="#contact">Contact</a>
+            <a class="stroke-nav" href="#about" onclick="closeNav()">About</a>
+            <a class="stroke-nav" href="#projects" onclick="closeNav()">Projects</a>
+            <a class="stroke-nav" href="#services" onclick="closeNav()">Services</a>
+            <a class="stroke-nav" href="#contact" onclick="closeNav()">Contact</a>
           </div>
         </div>
 
@@ -99,7 +52,7 @@
                     </span>
               </div>
             </section>
-            <section name="projects" class="sec-2">
+            <section id="projects" class="sec-2">
               <div class="top-sec">
                   <h1 style="display: block;color: #626E82;" class="top-head-sec2">Here are a handful of<hr style="border: 0px;margin-bottom: -10px;"><span style="line-height: 0.5em;" class="top-head-sec2-title stroke-title">my notable projects.</span></h1>
                     <div style="margin-top: 30px;padding-left: 4em; padding-right: 4em;" class="card-deck">
@@ -145,5 +98,24 @@
       <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
       <script src="../../../../assets/js/vendor/popper.min.js"></script>
       <script src="../../../../dist/js/bootstrap.min.js"></script>
+      <script>
+          $(window).scroll(function(){
+          $(".scroll-indicator").css("opacity", 1 - $(window).scrollTop() / 550);
+          });
+          </script>
+          <script>
+              $(window).scroll(function(){
+              $(".sec-2").css("opacity", 0 + $(window).scrollTop() / 550);
+              });
+              </script>
+          <script>
+              function openNav() {
+                document.getElementById("myNav").style.height = "100%";
+              }
+              
+              function closeNav() {
+                document.getElementById("myNav").style.height = "0%";
+              }
+          </script>
     </body>
 </html>
