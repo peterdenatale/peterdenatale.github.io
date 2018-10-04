@@ -2,6 +2,7 @@ body {
   margin: 0 !important;
   padding-top: 0rem;
   background-color: #fffaf0;
+  overflow-x: hidden;
 }
 
 /* Fonts */
@@ -85,6 +86,14 @@ main a {
   -webkit-text-stroke-width: 2px;
   -moz-text-stroke-color: #626E82;
   -webkit-text-stroke-color: #626E82;
+}
+
+.stroke-title-light {
+  color: transparent;
+  -moz-text-stroke-width: 1.6px;
+  -webkit-text-stroke-width: 1.6px;
+  -moz-text-stroke-color: #fffaf0;
+  -webkit-text-stroke-color: #fffaf0;
 }
 
 .stroke-nav {
@@ -197,24 +206,27 @@ main a {
   padding: 0;
   margin: 0;
   display: block;
-  background: #626E82;
+  background: #fffaf0;
   width: 100%;
-  color: #fffaf0 !important;
+  opacity: 0;
 }
+
 .top-head-sec2 {
-  font-family: 'Integral CF', Helvetica, sans-serif !important;
+  font-family: 'Souvenir Light', Helvetica, sans-serif;
   display: table-cell;
-  font-size: 2.6em;
-  padding-top: 40px;
+  font-size: 2em;
+  padding-top: 60px;
   padding-left: 40px;
+  padding-right: 40px;
   vertical-align: top;
-  text-align: left;
-  letter-spacing: 3px;
+  text-align: center;
 }
 
 .top-head-sec2-title {
   font-family: 'Integral CF', Helvetica, sans-serif !important;
-  color: #fffaf0 !important;
+  letter-spacing: 3px;
+  font-size: 1.1em;
+  text-align: center;
 }
 
 /* Overlay Menu */
@@ -299,3 +311,28 @@ main a {
 }
 }
 /* End Overlay Menu */
+
+.card {
+  border-radius: 0px;
+  border: 2.5px solid #626E82;
+  box-shadow: 10px 10px #626E825b;
+}
+
+.card-title {
+  font-size: 1.6em !important;
+}
+
+.btn-primary {
+  border-radius: 0px;
+  box-shadow: 5px 5px #626E825b;
+  background: transparent;
+  border: none;
+  color: #626E82;
+  width: 100%;
+}
+
+.btn-primary:hover {
+  background: #626E82;
+  color: #fffaf0;
+  box-shadow: 3px 3px #626E825b;
+}
