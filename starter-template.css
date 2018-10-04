@@ -4,6 +4,59 @@ body {
   background-color: #fffaf0;
 }
 
+/* Fonts */
+@font-face {
+  font-family: 'Europa Bold';
+  src: url("Europa-Bold.otf") format("opentype");
+  }
+
+@font-face {
+  font-family: 'Europa Light';
+  src: url("Europa-Light.otf") format("opentype");
+  }
+
+@font-face {
+  font-family: 'Europa';
+  src: url("Europa-Regular.otf") format("opentype");
+  }
+
+@font-face {
+  font-family: 'Sentinel LI';
+  src: url("sentinel-light-italic.ttf") format("truetype");
+  }
+
+@font-face {
+  font-family: 'Verona Light';
+  src: url("Verona-Light.otf") format("opentype");
+  }
+
+@font-face {
+  font-family: 'Souvenir Medium';
+  src: url("SouvenirStd-Medium.otf") format("opentype");
+  }
+
+@font-face {
+  font-family: 'Souvenir Light';
+  src: url("SouvenirStd-Light.otf") format("opentype");
+  }
+
+@font-face {
+  font-family: 'Trump Gothic Pro';
+  src: url("TrumpGothicPro.ttf") format("truetype");
+  }
+
+@font-face {
+  font-family: 'Integral CF';
+  src: url("IntegralCF-Regular.otf") format("opentype");
+  }
+
+@font-face {
+  font-family: 'Close';
+  src: url("System San Francisco Display Ultralight.ttf") format("truetype");
+  }
+/* End Fonts */
+
+/* Text Styles */
 h1, h2, h3, h4, h5 {
   font-family: 'Souvenir Light', serif !important;
   color: #626E82;
@@ -59,6 +112,7 @@ main a {
   font-family: 'Europa Bold', 'Avenir', Helvetica, sans-serif;
   color: #626E82;
 }
+/* End Text Styles */
 
 .sec-head-line {
   margin-top: -10px;
@@ -74,57 +128,6 @@ main a {
   max-width: 680px;
   padding: 0 15px;
 }
-
-/* Fonts */
-@font-face {
-  font-family: 'Europa Bold';
-  src: url("Europa-Bold.otf") format("opentype");
-  }
-
-@font-face {
-  font-family: 'Europa Light';
-  src: url("Europa-Light.otf") format("opentype");
-  }
-
-@font-face {
-  font-family: 'Europa';
-  src: url("Europa-Regular.otf") format("opentype");
-  }
-
-@font-face {
-  font-family: 'Sentinel LI';
-  src: url("sentinel-light-italic.ttf") format("truetype");
-  }
-
-@font-face {
-  font-family: 'Verona Light';
-  src: url("Verona-Light.otf") format("opentype");
-  }
-
-@font-face {
-  font-family: 'Souvenir Medium';
-  src: url("SouvenirStd-Medium.otf") format("opentype");
-  }
-
-@font-face {
-  font-family: 'Souvenir Light';
-  src: url("SouvenirStd-Light.otf") format("opentype");
-  }
-
-@font-face {
-  font-family: 'Trump Gothic Pro';
-  src: url("TrumpGothicPro.ttf") format("truetype");
-  }
-
-@font-face {
-  font-family: 'Integral CF';
-  src: url("IntegralCF-Regular.otf") format("opentype");
-  }
-
-@font-face {
-  font-family: 'Close';
-  src: url("System San Francisco Display Ultralight.ttf") format("truetype");
-  }
 
 .top-sec {
   height: 100vh;
@@ -190,7 +193,7 @@ main a {
   width: 100%;
 }
 
-/* Menu */
+/* Overlay Menu */
 .overlay {
   height: 0%;
   width: 100%;
@@ -271,4 +274,4 @@ main a {
   right: 35px;
 }
 }
-
+/* End Overlay Menu */
