@@ -122,10 +122,16 @@ a {
   width: 100%;
   height: 65%;
   background-image: linear-gradient(
-    rgba(0, 0, 0, 0.2), 
+    rgba(0, 0, 0, 0.2),
     rgba(0, 0, 0, 0.2)
   ), url("prisms.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        margin-top: -50px;
+    }
 }
