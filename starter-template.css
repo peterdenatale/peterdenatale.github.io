@@ -175,7 +175,7 @@ main a {
   position: absolute;
   left: 0 !important;
   right: 0 !important;
-  bottom: 10px;
+  bottom: 0;
   display: block;
   text-align: center;
   padding-top: 40px;
