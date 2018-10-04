@@ -342,3 +342,9 @@ main a {
   flex-basis: 46%; /* change this value for each breakpoint*/
   margin-bottom: 30px;
 }
+
+@media screen and (max-width: 768px) {
+    .sec-1 {
+      margin-top: -50px;
+    }
+  }
