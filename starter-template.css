@@ -79,6 +79,14 @@ main a {
   -webkit-text-stroke-color: #212121;
 }
 
+.stroke-title {
+  color: transparent;
+  -moz-text-stroke-width: 2px;
+  -webkit-text-stroke-width: 2px;
+  -moz-text-stroke-color: #626E82;
+  -webkit-text-stroke-color: #626E82;
+}
+
 .stroke-nav {
   color: transparent;
   -moz-text-stroke-width: 2px;
@@ -101,8 +109,7 @@ main a {
 
 .title {
   font-family: 'Souvenir Medium', serif !important;
-  padding-left: 2px;
-  padding-right: 2px;
+  padding: 0;
 }
 
 .sec-head {
@@ -182,6 +189,7 @@ main a {
   content: '';
 }
 
+/* Sec 2 */
 .sec-2 {
   position: relative;
   left: 0;
@@ -189,8 +197,24 @@ main a {
   padding: 0;
   margin: 0;
   display: block;
-  background: #ffffff;
+  background: #626E82;
   width: 100%;
+  color: #fffaf0 !important;
+}
+.top-head-sec2 {
+  font-family: 'Integral CF', Helvetica, sans-serif !important;
+  display: table-cell;
+  font-size: 2.6em;
+  padding-top: 40px;
+  padding-left: 40px;
+  vertical-align: top;
+  text-align: left;
+  letter-spacing: 3px;
+}
+
+.top-head-sec2-title {
+  font-family: 'Integral CF', Helvetica, sans-serif !important;
+  color: #fffaf0 !important;
 }
 
 /* Overlay Menu */
