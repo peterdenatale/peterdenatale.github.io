@@ -72,6 +72,10 @@ main a {
   color: #626E82;
 }
 
+a:hover {
+ color: rgba(98, 110, 130, 0.89);
+}
+
 .stroke {
   color: transparent;
   -moz-text-stroke-width: 1.2px;
