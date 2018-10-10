@@ -85,8 +85,8 @@ a:hover {
 
 .stroke {
   color: transparent;
-  -moz-text-stroke-width: 1.2px;
-  -webkit-text-stroke-width: 1.2px;
+  -moz-text-stroke-width: 2px;
+  -webkit-text-stroke-width: 2px;
   -moz-text-stroke-color: #212121;
   -webkit-text-stroke-color: #212121;
 }
@@ -170,7 +170,7 @@ a:hover {
   vertical-align: top;
   font-size: 2em;
   text-align: left;
-  color: #fffaf0;
+  color: #212121;
 }
 
 .top-image {
