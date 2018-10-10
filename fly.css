@@ -116,7 +116,7 @@ a:hover {
 }
 
 .shadow {
-  text-shadow: 1.5px 1.5px #be5b5b5b;
+  text-shadow: 2px 2px #c6a66cab;
   box-shadow: none !important;
 }
 
@@ -166,7 +166,7 @@ a:hover {
   display: table-cell;
   padding-top: 5%;
   padding-left: 5%;
-  padding-right: 5%;
+  padding-right: 10%;
   vertical-align: top;
   font-size: 2em;
   text-align: left;
