@@ -91,6 +91,13 @@ a:hover {
   -webkit-text-stroke-color: #212121;
 }
 
+.stroke-small {
+    -moz-text-stroke-width: 1.4px;
+    -webkit-text-stroke-width: 1.4px;
+    -moz-text-stroke-color: #212121;
+    -webkit-text-stroke-color: #212121;
+  }
+
 .stroke-title {
   color: transparent;
   -moz-text-stroke-width: 2px;
@@ -101,8 +108,8 @@ a:hover {
 
 .stroke-title-light {
   color: transparent;
-  -moz-text-stroke-width: 1.6px;
-  -webkit-text-stroke-width: 1.6px;
+  -moz-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 1px;
   -moz-text-stroke-color: #fffaf0;
   -webkit-text-stroke-color: #fffaf0;
 }
@@ -365,4 +372,20 @@ a:hover {
     .top-sec h1 {
       margin-top: -30px;
     }
+  }
+
+  .foot-bar {
+      background: #c6a66c;
+      padding-bottom: 8px;
+      padding-top: 8px;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      z-index: 9999;
+      color: #212121;
+      text-align: center;
+      font-family: 'Integral CF', sans-serif;
+      font-size: 13px;
+      letter-spacing: 2px;
   }
