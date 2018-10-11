@@ -379,3 +379,7 @@ a:hover {
     bottom: 5px !important;
     right: 5px !important;
   }
+
+  iframe#drift-widget.drift-widget-sidebar{
+    left: 0px !important;
+  }
