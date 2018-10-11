@@ -374,3 +374,8 @@ a:hover {
       margin-top: -30px;
     }
   }
+
+  iframe#drift-widget{
+    bottom: 5px !important;
+    right: 5px !important;
+  }
