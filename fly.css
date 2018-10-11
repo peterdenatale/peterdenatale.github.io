@@ -123,7 +123,7 @@ a:hover {
 }
 
 .shadow {
-  text-shadow: 2px 2px #c6a66cab;
+  text-shadow: 2px 2px #fffaf0ab;
   box-shadow: none !important;
 }
 
@@ -172,11 +172,11 @@ a:hover {
 .top-head {
   display: table-cell;
   padding-top: 5%;
-  padding-left: 5%;
-  padding-right: 10%;
+  padding-left: 10%;
+  padding-right: 5%;
   vertical-align: top;
   font-size: 2em;
-  text-align: left;
+  text-align: right;
   color: #212121;
 }
 
@@ -372,20 +372,4 @@ a:hover {
     .top-sec h1 {
       margin-top: -30px;
     }
-  }
-
-  .foot-bar {
-      background: #c6a66c;
-      padding-bottom: 8px;
-      padding-top: 8px;
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      width: 100%;
-      z-index: 9999;
-      color: #212121;
-      text-align: center;
-      font-family: 'Integral CF', sans-serif;
-      font-size: 13px;
-      letter-spacing: 2px;
   }
