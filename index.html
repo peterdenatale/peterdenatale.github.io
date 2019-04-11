@@ -1,131 +1,47 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../../../../favicon.ico">
+---
+layout: examples
+title: Starter Template
+extra_css: "starter-template.css"
+---
 
-    <title>Peter DeNatale | Personal Portfolio</title>
+<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-    <!-- Custom styles for this template -->
-    <link href="starter-template.css" rel="stylesheet" type="text/css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js" ></script>
-    <link rel="stylesheet" href="https://cdn.rawgit.com/tonystar/bootstrap-float-label/v4.0.2/bootstrap-float-label.min.css"/>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" ></script>
-  </head>
-
-
-  <body>
-
-      <div id="myNav" class="overlay">
-          <a href="javascript:void(0)" class="close hairline" onclick="closeNav()"></a>
-          <div class="overlay-content">
-            <a class="stroke-nav" href="#about" onclick="closeNav()">About</a>
-            <a class="stroke-nav" href="#projects" onclick="closeNav()">Projects</a>
-            <a class="stroke-nav" href="#services" onclick="closeNav()">Services</a>
-            <a class="stroke-nav" href="#contact" onclick="closeNav()">Contact</a>
-          </div>
+  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+        <div class="dropdown-menu" aria-labelledby="dropdown01">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
         </div>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+      <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
 
-      <span style="z-index: 1000; background: none;height: 5px; width: 20px;position: fixed; top: 20px; right: 25px;cursor:pointer" onclick="openNav()"></span>
-      <span style="z-index: 1000; background: #000;height: 1px; width: 20px;position: fixed; top: 25px; right: 25px;cursor:pointer" onclick="openNav()"></span>
-      <span style="z-index: 1000; background: none;height: 4px; width: 20px;position: fixed; top: 26px; right: 25px;cursor:pointer" onclick="openNav()"></span>
-      <span style="z-index: 1000; background: #000;height: 1px; width: 20px; position: fixed; top: 30px; right: 25px;cursor:pointer" onclick="openNav()"></span>
-      <span style="z-index: 1000; background: none;height: 4px; width: 20px;position: fixed; top: 31px; right: 25px;cursor:pointer" onclick="openNav()"></span>
-      <span style="z-index: 1000; background: #000;height: 1px; width: 20px; position: fixed; top: 35px; right: 25px;cursor:pointer" onclick="openNav()"></span>
-      <span style="z-index: 1000; background: none;height: 5px; width: 20px;position: fixed; top: 36px; right: 25px;cursor:pointer" onclick="openNav()"></span>
+<main role="main" class="container">
 
-      <main role="main">
-            <section class="sec-1">
-              <div class="top-sec">
-                  <h1 class="top-head">I'm <span style="line-height: 0.6em;font-size: 1.1em;font-family: 'Integral CF', Helvetica, serif !important; color: transparent;letter-spacing: 2px;" class="title stroke-title">Peter DeNatale</span>,<br>student, private pilot, budding entrepreneur,<br>and web designer + developer.</h1>
-                    <span class="scroll-indicator">
-                        <span class="scroll-indicator__line"></span>
-                        Scroll
-                    </span>
-              </div>
-            </section>
-            <section id="projects" class="sec-2">
-              <div class="top-sec">
-                  <h1 style="display: block;color: #626E82;" class="top-head-sec2">Here are some of<hr style="border: 0px;margin-bottom: -10px;"><span style="line-height: 0.5em;" class="top-head-sec2-title stroke-title">my notable projects.</span></h1>
-                    <div style="margin-top: 30px;padding-left: 4em; padding-right: 4em;" class="card-deck">
-                      <div class="card">
-                          <div class="card-body">
-                            <h5 class="card-title">The Candle Crate</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <div class="row">
-                              <p class="col-lg-7 col-md-12 col-sm-12 col-xs-12 card-text"><span style="font-size: 13px;" class="text-muted">Fall 2018—Present</span></p>
-                              <p class="col-lg-5 col-md-12 col-sm-12 col-xs-12 card-text"><span style="font-size: 13px;" class="btn btn-sm btn-primary">See More</span></p>
-                            </div>
-                          </div>
-                        </div>
-                      <div class="card">
-                          <div class="card-body">
-                            <h5 class="card-title">Copper Chronicles</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <div class="row">
-                              <p class="col-lg-7 col-md-12 col-sm-12 col-xs-12 card-text"><span style="font-size: 13px;" class="text-muted">Fall 2018—Present</span></p>
-                              <p class="col-lg-5 col-md-12 col-sm-12 col-xs-12 card-text"><span style="font-size: 13px;" class="btn btn-sm btn-primary">See More</span></p>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-body">
-                              <h5 class="card-title">Foundify</h5>
-                              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                              <div class="row">
-                                <p class="col-lg-7 col-md-12 col-sm-12 col-xs-12 card-text"><span style="font-size: 13px;" class="text-muted">Summer 2018—Present</span></p>
-                                <p class="col-lg-5 col-md-12 col-sm-12 col-xs-12 card-text"><span style="font-size: 13px;" class="btn btn-sm btn-primary">See More</span></p>
-                              </div>
-                            </div>
-                          </div>
-                        <div class="card">
-                            <div class="card-body">
-                              <h5 class="card-title">OF HUMANS</h5>
-                              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                              <div class="row">
-                                <p class="col-lg-7 col-md-12 col-sm-12 col-xs-12 card-text"><span style="font-size: 13px;" class="text-muted">Summer 2014—Fall 2016</span></p>
-                                <p class="col-lg-5 col-md-12 col-sm-12 col-xs-12 card-text"><span style="font-size: 13px;" class="btn btn-sm btn-primary">See More</span></p>
-                              </div>
-                            </div>
-                          </div>
-                    </div>
-              </div>
-            </section>
-      </main><!-- /.container -->
-  
-      <!-- Bootstrap core JavaScript
-      ================================================== -->
-      <!-- Placed at the end of the document so the pages load faster -->
-      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-      <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-      <script src="../../../../assets/js/vendor/popper.min.js"></script>
-      <script src="../../../../dist/js/bootstrap.min.js"></script>
-      <script>
-          $(window).scroll(function(){
-          $(".scroll-indicator").css("opacity", 1 - $(window).scrollTop() / 550);
-          });
-          </script>
-          <script>
-              $(window).scroll(function(){
-              $(".sec-2").css("opacity", 0 + $(window).scrollTop() / 550);
-              });
-              </script>
-          <script>
-              function openNav() {
-                document.getElementById("myNav").style.height = "100%";
-              }
-              
-              function closeNav() {
-                document.getElementById("myNav").style.height = "0%";
-              }
-          </script>
-    </body>
-</html>
+  <div class="starter-template">
+    <h1>Bootstrap starter template</h1>
+    <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+  </div>
+
+</main><!-- /.container -->
