@@ -1,6 +1,6 @@
 body {
   letter-spacing: 0em;
-  background: #fae7b7;
+  background: #FFFEFA;
   color: #000;
   overflow-x: hidden;
   overflow-y: auto;
@@ -15,37 +15,38 @@ h5 {
   text-transform: uppercase;
   font-size: 1.1em;
   letter-spacing: 0.05em;
-  color: #C28E0E;
+  color: #496257;
 }
 .starter-template {
   margin: 3rem 0.5rem;
   padding: 2.5rem 2.5rem;
   text-align: left;
-  background: #fdf7e7;
+  background: #f3eeea;
   border-radius: 10px;
 }
 .highlight {
-  color: #C28E0E;
+  color: #f8ad20;
 }
 .underline, .punc-light {
   font-family: 'Eina Bold', sans-serif;
+  color: #356281;
 }
 .underline, .underline a {
-  color: #000;
-  text-shadow: 0 0 #C28E0E, .08em 0 0 #fdf7e7, 0 0, -.08em 0 0 #fdf7e7;;
+  color: #2C3233;
+  text-shadow: 0 0 #356281, .08em 0 0 #f3eeea, 0 0, -.08em 0 0 #f3eeea;;
   /*  gradient background allows us to use css only & re-position it  */
-  background: -webkit-linear-gradient(#C28E0E, #C28E0E) center 1.16em no-repeat;
-  background: linear-gradient(#C28E0E, #C28E0E) center 1.16em no-repeat;
+  background: -webkit-linear-gradient(#356281, #356281) center 1.16em no-repeat;
+  background: linear-gradient(#356281, #356281) center 1.16em no-repeat;
   background-size: 100% 4px;
   -webkit-transition: .2s ease;
   transition: .2s ease;
 }
 .underline a:hover {
-  color: #C28E0E;
-  text-shadow: 0 0 #C28E0E, .08em 0 0 #fdf7e7, 0 0, -.08em 0 0 #fdf7e7;;
+  color: #356281;
+  text-shadow: 0 0 #356281, .08em 0 0 #f3eeea, 0 0, -.08em 0 0 #f3eeea;;
   /*  gradient background allows us to use css only & re-position it  */
-  background: -webkit-linear-gradient(#C28E0E, #C28E0E) center 1.16em no-repeat;
-  background: linear-gradient(#C28E0E, #C28E0E) center 1.16em no-repeat;
+  background: -webkit-linear-gradient(#356281, #356281) center 1.16em no-repeat;
+  background: linear-gradient(#356281, #356281) center 1.16em no-repeat;
   background-size: 100% 4px;
 }
 a {
