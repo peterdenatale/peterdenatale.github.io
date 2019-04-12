@@ -1,13 +1,13 @@
 body {
-  font-family: 'Avenir', sans-serif;
   letter-spacing: 0em;
   background: #fae7b7;
   color: #000;
   overflow-x: hidden;
+  overflow-y: auto;
 }
 h1 {
   font-size: 3em;
-  font-weight: 700;
+  font-family: 'Eina Bold', sans-serif;
 }
 h5 {
   font-family: 'Inconsolata', monospace;
@@ -28,14 +28,14 @@ h5 {
   color: #C28E0E;
 }
 .underline, .punc-light {
-  font-family: 'Avenir', sans-serif;
+  font-family: 'Eina Bold', sans-serif;
 }
 .underline, .underline a {
   color: #000;
   text-shadow: 0 0 #C28E0E, .08em 0 0 #fdf7e7, 0 0, -.08em 0 0 #fdf7e7;;
   /*  gradient background allows us to use css only & re-position it  */
-  background: -webkit-linear-gradient(#C28E0E, #C28E0E) center 1.13em no-repeat;
-  background: linear-gradient(#C28E0E, #C28E0E) center 1.13em no-repeat;
+  background: -webkit-linear-gradient(#C28E0E, #C28E0E) center 1.15em no-repeat;
+  background: linear-gradient(#C28E0E, #C28E0E) center 1.15em no-repeat;
   background-size: 100% 4px;
   -webkit-transition: .2s ease;
   transition: .2s ease;
@@ -44,23 +44,23 @@ h5 {
   color: #C28E0E;
   text-shadow: 0 0 #C28E0E, .08em 0 0 #fdf7e7, 0 0, -.08em 0 0 #fdf7e7;;
   /*  gradient background allows us to use css only & re-position it  */
-  background: -webkit-linear-gradient(#C28E0E, #C28E0E) center 1.13em no-repeat;
-  background: linear-gradient(#C28E0E, #C28E0E) center 1.13em no-repeat;
+  background: -webkit-linear-gradient(#C28E0E, #C28E0E) center 1.0em no-repeat;
+  background: linear-gradient(#C28E0E, #C28E0E) center 1.0em no-repeat;
   background-size: 100% 4px;
 }
 a {
   text-decoration: none !important;
-  font-family: 'Avenir', sans-serif;
+  font-family: 'Eina Bold', sans-serif;
 }
 @font-face {
-  font-family: 'Avenir';
-  src: url("AvenirNext-DemiBold.ttf") format("truetype");
+  font-family: 'Eina Bold';
+  src: url("Eina-01-Bold.otf") format("opentype");
   }
 @font-face {
   font-family: 'Larsseit';
   src: url("Larsseit.otf") format("opentype");
   }
 @font-face {
-  font-family: 'Recoleta Regular';
-  src: url("Recoleta Regular.otf") format("opentype");
+  font-family: 'TT Commons Regular';
+  src: url("Eina-01-Regular.otf") format("opentype");
   }
