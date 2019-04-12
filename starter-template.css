@@ -1,5 +1,5 @@
 body {
-  font-family: 'Recoleta SemiBold', serif;
+  font-family: 'Avenir', sans-serif;
   letter-spacing: 0em;
   background: #fae7b7;
   color: #000;
@@ -7,6 +7,7 @@ body {
 }
 h1 {
   font-size: 3em;
+  font-weight: 700;
 }
 h5 {
   font-family: 'Inconsolata', monospace;
@@ -27,29 +28,29 @@ h5 {
   color: #C28E0E;
 }
 .underline, .punc-light {
-  font-family: 'Recoleta Regular', serif;
+  font-family: 'Avenir', sans-serif;
 }
 .underline, .underline a {
   color: #000;
-  text-shadow: 0 0 #C28E0E, .10em 0 0 #fdf7e7, 0 0, -.10em 0 0 #fdf7e7;;
+  text-shadow: 0 0 #C28E0E, .08em 0 0 #fdf7e7, 0 0, -.08em 0 0 #fdf7e7;;
   /*  gradient background allows us to use css only & re-position it  */
-  background: -webkit-linear-gradient(#C28E0E, #C28E0E) center 1.11em no-repeat;
-  background: linear-gradient(#C28E0E, #C28E0E) center 1.11em no-repeat;
-  background-size: 100% 2.5px;
+  background: -webkit-linear-gradient(#C28E0E, #C28E0E) center 1.13em no-repeat;
+  background: linear-gradient(#C28E0E, #C28E0E) center 1.13em no-repeat;
+  background-size: 100% 4px;
   -webkit-transition: .2s ease;
   transition: .2s ease;
 }
 .underline a:hover {
   color: #C28E0E;
-  text-shadow: 0 0 #C28E0E, .10em 0 0 #fdf7e7, 0 0, -.10em 0 0 #fdf7e7;;
+  text-shadow: 0 0 #C28E0E, .08em 0 0 #fdf7e7, 0 0, -.08em 0 0 #fdf7e7;;
   /*  gradient background allows us to use css only & re-position it  */
-  background: -webkit-linear-gradient(#C28E0E, #C28E0E) center 1.11em no-repeat;
-  background: linear-gradient(#C28E0E, #C28E0E) center 1.11em no-repeat;
-  background-size: 100% 2.5px;
+  background: -webkit-linear-gradient(#C28E0E, #C28E0E) center 1.13em no-repeat;
+  background: linear-gradient(#C28E0E, #C28E0E) center 1.13em no-repeat;
+  background-size: 100% 4px;
 }
 a {
   text-decoration: none !important;
-  font-family: 'Recoleta Regular', serif;
+  font-family: 'Avenir', sans-serif;
 }
 @font-face {
   font-family: 'Recoleta SemiBold';
