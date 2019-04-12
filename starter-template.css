@@ -53,8 +53,8 @@ a {
   font-family: 'Avenir', sans-serif;
 }
 @font-face {
-  font-family: 'Recoleta SemiBold';
-  src: url("Recoleta SemiBold.otf") format("opentype");
+  font-family: 'Avenir';
+  src: url("AvenirNext-DemiBold.ttf") format("truetype");
   }
 @font-face {
   font-family: 'Larsseit';
