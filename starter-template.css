@@ -34,8 +34,8 @@ h5 {
   color: #000;
   text-shadow: 0 0 #C28E0E, .08em 0 0 #fdf7e7, 0 0, -.08em 0 0 #fdf7e7;;
   /*  gradient background allows us to use css only & re-position it  */
-  background: -webkit-linear-gradient(#C28E0E, #C28E0E) center 1.15em no-repeat;
-  background: linear-gradient(#C28E0E, #C28E0E) center 1.15em no-repeat;
+  background: -webkit-linear-gradient(#C28E0E, #C28E0E) center 1.16em no-repeat;
+  background: linear-gradient(#C28E0E, #C28E0E) center 1.16em no-repeat;
   background-size: 100% 4px;
   -webkit-transition: .2s ease;
   transition: .2s ease;
@@ -44,8 +44,8 @@ h5 {
   color: #C28E0E;
   text-shadow: 0 0 #C28E0E, .08em 0 0 #fdf7e7, 0 0, -.08em 0 0 #fdf7e7;;
   /*  gradient background allows us to use css only & re-position it  */
-  background: -webkit-linear-gradient(#C28E0E, #C28E0E) center 1.0em no-repeat;
-  background: linear-gradient(#C28E0E, #C28E0E) center 1.0em no-repeat;
+  background: -webkit-linear-gradient(#C28E0E, #C28E0E) center 1.16em no-repeat;
+  background: linear-gradient(#C28E0E, #C28E0E) center 1.16em no-repeat;
   background-size: 100% 4px;
 }
 a {
