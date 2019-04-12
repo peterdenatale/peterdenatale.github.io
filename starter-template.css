@@ -1,7 +1,65 @@
 body {
-  padding-top: 5rem;
+  font-family: 'Recoleta SemiBold', serif;
+  letter-spacing: 0em;
+  background: #fae7b7;
+  color: #000;
+  overflow-x: hidden;
+}
+h1 {
+  font-size: 3em;
+}
+h5 {
+  font-family: 'Inconsolata', monospace;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 1.1em;
+  letter-spacing: 0.05em;
+  color: #C28E0E;
 }
 .starter-template {
-  padding: 3rem 1.5rem;
-  text-align: center;
+  margin: 3rem 0.5rem;
+  padding: 2.5rem 2.5rem;
+  text-align: left;
+  background: #fdf7e7;
+  border-radius: 10px;
 }
+.highlight {
+  color: #C28E0E;
+}
+.underline, .punc-light {
+  font-family: 'Recoleta Regular', serif;
+}
+.underline, .underline a {
+  color: #000;
+  text-shadow: 0 0 #C28E0E, .10em 0 0 #fdf7e7, 0 0, -.10em 0 0 #fdf7e7;;
+  /*  gradient background allows us to use css only & re-position it  */
+  background: -webkit-linear-gradient(#C28E0E, #C28E0E) center 1.11em no-repeat;
+  background: linear-gradient(#C28E0E, #C28E0E) center 1.11em no-repeat;
+  background-size: 100% 2.5px;
+  -webkit-transition: .2s ease;
+  transition: .2s ease;
+}
+.underline a:hover {
+  color: #C28E0E;
+  text-shadow: 0 0 #C28E0E, .10em 0 0 #fdf7e7, 0 0, -.10em 0 0 #fdf7e7;;
+  /*  gradient background allows us to use css only & re-position it  */
+  background: -webkit-linear-gradient(#C28E0E, #C28E0E) center 1.11em no-repeat;
+  background: linear-gradient(#C28E0E, #C28E0E) center 1.11em no-repeat;
+  background-size: 100% 2.5px;
+}
+a {
+  text-decoration: none !important;
+  font-family: 'Recoleta Regular', serif;
+}
+@font-face {
+  font-family: 'Recoleta SemiBold';
+  src: url("Recoleta SemiBold.otf") format("opentype");
+  }
+@font-face {
+  font-family: 'Larsseit';
+  src: url("Larsseit.otf") format("opentype");
+  }
+@font-face {
+  font-family: 'Recoleta Regular';
+  src: url("Recoleta Regular.otf") format("opentype");
+  }
