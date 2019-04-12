@@ -15,7 +15,7 @@ h5 {
   text-transform: uppercase;
   font-size: 1.1em;
   letter-spacing: 0.05em;
-  color: #628475;
+  color: #98b3a8;
 }
 .starter-template {
   margin: 3rem 0.5rem;
@@ -25,7 +25,7 @@ h5 {
   border-radius: 10px;
 }
 .highlight {
-  color: #f8ad20;
+  color: #628475;
 }
 .underline, .punc-light {
   font-family: 'Eina Bold', sans-serif;
