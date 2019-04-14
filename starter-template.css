@@ -58,8 +58,8 @@ a {
   src: url("Eina-01-Bold.otf") format("opentype");
   }
 @font-face {
-  font-family: 'Larsseit';
-  src: url("Larsseit.otf") format("opentype");
+  font-family: 'Inconsolata';
+  src: url("Inconsolata.otf") format("opentype");
   }
 @font-face {
   font-family: 'TT Commons Regular';
