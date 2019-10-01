@@ -1,79 +1,74 @@
 body {
-    --grid-color: #C28E0E;
-    --grid-weight: 1px;
-    --grid-spacing: 32px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    background-position:
-      center center,
-      center center;
-    background-size:
-      var(--grid-spacing) var(--grid-spacing),
-      var(--grid-spacing) var(--grid-spacing);
-    background-image:
-      repeating-linear-gradient(
-        0deg,
-        var(--grid-color),
-        var(--grid-color) var(--grid-weight),
-        transparent var(--grid-weight),
-        transparent var(--grid-spacing)
-      ),
-      repeating-linear-gradient(
-        -90deg,
-        var(--grid-color),
-        var(--grid-color) var(--grid-weight),
-        transparent var(--grid-weight),
-        transparent var(--grid-spacing)
-      );
-    color: #000;
-    font-family: 'GT America Extended Regular', sans-serif;
-    font-size: 16px;
+    background: #fff;
+    color: #212121;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: .25px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
   }
 h1 {
-  font-size: 1.75em !important;
-  font-family: 'GT America Extended Regular', sans-serif;
+  font-family: 'Proxima Nova', sans-serif;
 }
 h5 {
   font-family: 'Inconsolata', monospace;
-  font-weight: 900;
+  font-weight: 500;
   text-transform: uppercase;
   font-size: 1.1rem;
   letter-spacing: 0.05em;
   color: #98b3a8;
 }
-.starter-template {
-  margin: 1rem 1rem 1rem 1rem;
-  padding: 1.5rem 1.5rem;
-  text-align: left;
-  background: #ffffff;
-  box-shadow: -6px 6px 0px 0px #000;
-  border: 4px solid #000;
-}
 .highlight {
-  color: #000;
+  color: #212121;
 }
 a {
   text-decoration: none !important;
-  font-family: 'GT America Extended Regular Italic', sans-serif;
+  font-family: 'Proxima Nova', sans-serif;
   color: #C28E0E;
+  font-weight: 500;
+  transition: color 0.2s ease;
 }
 a:hover {
     text-decoration: none !important;
-    font-family: 'GT America Extended Regular Italic', sans-serif;
     color: #98700D;
   }
-@font-face {
-  font-family: 'GT America Extended Regular';
-  src: url("GT-America-Extended-Regular.otf") format("opentype");
+
+#cover {
+    position: relative;
   }
-@font-face {
-  font-family: 'GT America Extended Regular Italic';
-  src: url("GT America Extended Medium.otf") format("opentype");
-  }
-@font-face {
-  font-family: 'TT Commons Regular';
-  src: url("Eina-01-Regular.otf") format("opentype");
-  }
+#cover .cover-content {
+    margin: 30px auto 30px auto;
+    width: 85%;
+    max-width: 800px;
+    z-index: 999;
+    position: relative;
+}
+
+#cover .cover-content p {
+  margin: 0px auto 30px auto;
+}
+
+p a:before, li a:before {
+  content: '';
+  height: 10px;
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  right: 0;
+  background-color: rgba(194, 142, 14, 0.1);
+  transition: background-color 0.2s ease;
+}
+
+p a, li a {
+  color: #212121;
+  text-decoration: none;
+  position: relative;
+  white-space: nowrap;
+}
+
+p a:hover:before, li a:hover:before {
+  background-color: rgba(194, 142, 14, 0.3);
+}
