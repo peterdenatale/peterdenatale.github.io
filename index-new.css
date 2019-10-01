@@ -1,3 +1,15 @@
+html,body {
+  height: 100%;
+}
+
+.cover-container {
+  max-width: 42em;
+}
+
+.cover {
+  padding: 0 1.5rem;
+}
+
 body {
     background: #fff;
     color: #212121;
@@ -9,6 +21,8 @@ body {
     margin: 0;
     padding: 0;
     width: 100%;
+    display: -ms-flexbox;
+    display: flex;
   }
 h1 {
   font-family: 'proxima_nova_rgregular', Helvetica, Arial, sans-serif;
@@ -36,7 +50,7 @@ a:hover {
     color: #98700D;
   }
 
-#cover {
+/*#cover {
     position: relative;
     top: 50%;
     left: 0%;
@@ -54,12 +68,15 @@ a:hover {
 #cover .cover-content p {
   margin: 5px 0px 30px 0px;
 }
+*/
+
+
 
 p a:before, li a:before {
   content: '';
   height: 10px;
   position: absolute;
-  bottom: -2px;
+  bottom: -1px;
   left: 0;
   right: 0;
   background-color: rgba(194, 142, 14, 0.1);
@@ -75,6 +92,10 @@ p a, li a {
 
 p a:hover:before, li a:hover:before {
   background-color: rgba(194, 142, 14, 0.3);
+}
+
+strong, strong a {
+  font-family: 'proxima_nova_rgbold', Helvetica, Arial, sans-serif;
 }
 
 @font-face {
