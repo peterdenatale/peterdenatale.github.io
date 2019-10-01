@@ -38,17 +38,21 @@ a:hover {
 
 #cover {
     position: relative;
+    top: 50%;
+    left: 0%;
   }
 #cover .cover-content {
-    margin: 30px auto 30px auto;
-    width: 85%;
-    max-width: 800px;
-    z-index: 999;
-    position: relative;
+    margin: 5px 0px 30px 0px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow-y: scroll;
+    width: 90%;
 }
 
 #cover .cover-content p {
-  margin: 0px auto 30px auto;
+  margin: 5px 0px 30px 0px;
 }
 
 p a:before, li a:before {
