@@ -1,6 +1,6 @@
 html, body {
     height: 100%;
-    color: #5f5f5f;
+    color: #000;
     font-weight: normal;
   }
 
@@ -12,6 +12,7 @@ h3 {
 }
 
 .strong {
+    font-family: 'GT Walsheim Bold', Helvetica, Arial, sans-serif;
     color: #000;
 }
 
@@ -44,7 +45,7 @@ a {
     background-position: 0 100%;
     background-repeat: repeat-x;
     background-size: 3px 3px;
-    color: #5f5f5f;
+    color: #000;
     text-decoration: none;
   }
   
@@ -54,7 +55,7 @@ a {
     background-size: auto 6px;
     background-repeat: repeat-x;
     text-decoration: none;
-    color: #5f5f5f;
+    color: #000;
   }
 
   @media (min-width: 768px) {
