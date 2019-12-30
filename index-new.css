@@ -116,3 +116,29 @@ strong, strong a {
 	font-weight: normal;
 	font-style: normal;
 }
+
+@media (min-width: 768px) {
+  .h-md-100 { height: 100vh; }
+}
+
+@media (max-width: 768px) {
+  .h-md-100 { height: 50vh; }
+}
+
+@media (max-width: 768px) {
+  .mobile-break {
+    clear: both; 
+    display: block;
+  }
+}
+
+@media (max-width: 768px) {
+  .mobile-only {
+    display: block;
+  }
+}
+@media (min-width: 768px) {
+  .mobile-only {
+    display: none;
+  }
+}
