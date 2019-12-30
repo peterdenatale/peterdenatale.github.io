@@ -6,11 +6,13 @@ h3 {
     font-family: 'GT Walsheim', Helvetica, Arial, sans-serif;
     line-height: 1.35;
     letter-spacing: 0px !important;
+    font-weight: normal;
 }
 
 strong {
     font-family: 'GT Walsheim Bold', Helvetica, Arial, sans-serif;
     letter-spacing: 0px !important;
+    font-weight: normal;
 }
 
 h5 {
@@ -19,6 +21,7 @@ h5 {
     letter-spacing: 1px;
     font-size: 15px;
     color: #95a588;
+    font-weight: normal;
 }
 
 .bg-peter {
