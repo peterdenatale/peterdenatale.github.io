@@ -11,7 +11,7 @@ h3 {
     font-weight: normal;
 }
 
-.strong {
+.strong span {
     font-family: 'GT Walsheim Bold', Helvetica, Arial, sans-serif !important;
     color: #000;
 }
