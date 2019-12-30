@@ -9,11 +9,12 @@ h1 {
 h3 {
     font-family: 'proxima_nova_rgregular', Helvetica, Arial, sans-serif;
     line-height: 1.35;
+    letter-spacing: 0px !important;
 }
 
 strong {
     font-family: 'proxima_nova_rgbold', Helvetica, Arial, sans-serif;
-
+    letter-spacing: 0px !important;
 }
 
 h5 {
