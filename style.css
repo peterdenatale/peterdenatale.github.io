@@ -24,6 +24,7 @@ h5 {
     font-size: 15px;
     color: #95a588;
     font-weight: normal;
+    transform: skewY(-3deg);
 }
 
 .bg-peter {
@@ -31,8 +32,8 @@ h5 {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    -webkit-filter: brightness(80%);
-    filter: brightness(80%);
+    -webkit-filter: brightness(85%);
+    filter: brightness(85%);
 }
 
 .break {
