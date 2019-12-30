@@ -12,7 +12,7 @@ h3 {
 }
 
 .strong {
-    font-family: 'GT Walsheim Bold', Helvetica, Arial, sans-serif;
+    font-family: 'GT Walsheim Bold', Helvetica, Arial, sans-serif !important;
     color: #000;
 }
 
