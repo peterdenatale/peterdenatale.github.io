@@ -1,5 +1,6 @@
-html,body {
+html, body {
     height: 100%;
+    color: #5f5f5f;
   }
 
 h3 {
@@ -10,9 +11,7 @@ h3 {
 }
 
 strong {
-    font-family: 'GT Walsheim Bold', Helvetica, Arial, sans-serif;
-    letter-spacing: 0px !important;
-    font-weight: normal;
+    color: #000;
 }
 
 h5 {
@@ -44,7 +43,7 @@ a {
     background-position: 0 100%;
     background-repeat: repeat-x;
     background-size: 3px 3px;
-    color: #000;
+    color: #5f5f5f;
     text-decoration: none;
   }
   
@@ -54,7 +53,7 @@ a {
     background-size: auto 6px;
     background-repeat: repeat-x;
     text-decoration: none;
-    color: #000;
+    color: #5f5f5f;
   }
 
   @media (min-width: 768px) {
