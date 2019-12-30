@@ -1,6 +1,7 @@
 html, body {
     height: 100%;
     color: #5f5f5f;
+    font-weight: normal;
   }
 
 h3 {
@@ -10,7 +11,7 @@ h3 {
     font-weight: normal;
 }
 
-strong {
+.strong {
     color: #000;
 }
 
