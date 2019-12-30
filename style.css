@@ -2,18 +2,14 @@ html,body {
     height: 100%;
   }
 
-h1 {
-    font-family: 'Ovo', serif;
-}
-
 h3 {
-    font-family: 'proxima_nova_rgregular', Helvetica, Arial, sans-serif;
+    font-family: 'Proxima Nova', Helvetica, Arial, sans-serif;
     line-height: 1.35;
     letter-spacing: 0px !important;
 }
 
 strong {
-    font-family: 'proxima_nova_rgbold', Helvetica, Arial, sans-serif;
+    font-family: 'proxima_nova_altbold', Helvetica, Arial, sans-serif;
     letter-spacing: 0px !important;
 }
 
@@ -26,7 +22,7 @@ h5 {
 }
 
 .bg-peter {
-    background: url("bg-peter.JPG");
+    background: url("bg-peter.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
