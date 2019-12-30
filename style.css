@@ -79,13 +79,3 @@ a {
       display: none;
     }
   }
-
-@font-face {
-    font-family: GT Walsheim Bold;
-    src: url(GT-Walsheim-Pro-Trial-Bold.otf);
-}
-
-@font-face {
-    font-family: GT Walsheim;
-    src: url(GT-Walsheim-Pro-Trial-Regular.otf);
-}
